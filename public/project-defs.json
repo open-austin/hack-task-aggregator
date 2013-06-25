@@ -1,0 +1,6 @@
+[
+   { "owner" : "open-austin",    "project" : "austin-recycles",       "label" : "*" },
+   { "owner" : "open-austin",    "project" : "tecfiler",              "label" : "*" },
+   { "owner" : "open-austin",    "project" : "atx-restaurant-scores", "label" : "*" },
+   { "owner" : "chip-rosenthal", "project" : "bike-buddy",            "label" : "*" }
+]
