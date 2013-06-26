@@ -2,6 +2,10 @@ body {
     padding: 1em 0;
 }
 
+.header {
+	  margin-top: 2em;
+}
+
 .project {
     margin: 1.5em 0;
     padding: 5px;

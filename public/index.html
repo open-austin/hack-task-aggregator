@@ -22,21 +22,31 @@
 
 <body>
 
+<a href="https://github.com/open-austin/hack-task-aggregator"><img
+ style="position: absolute; top: 0; right: 0; height: 149px; width: 149px; border: 0;"
+ src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+ alt="Fork me on GitHub"></a>
+
   <div class="container">  
     
     <div class="header">
-      <a href="http://www.open-austin.org/"></a><img src="http://www.open-austin.org/wp-content/uploads/2013/04/Open_Austin_Banner_400x80.png"
-        alt="Open Austin logo" class="pull-right" style="padding: 10px 0; margin-left: 5px; height: 40px; width: 200px;" /></a>
-      <h1 style="height: 40px">Open Austin Hack Tasks</h1>  
-      <div class="clearfix"></div>
-      <p>This page lists all of the Open Austin projects that have tasks ready for hacking.</p>
+
+      <a href="http://www.open-austin.org/"><img
+        src="assets/img/Open_Austin_Banner_400x80.png"
+        class="logo" style="height: 40px; width: 200px;" 
+        alt="Open Austin logo" /></a>
+
+      <h1>Open Austin Hack Tasks</h1>  
+      
+      <p>This page lists all of the <a href="http://www.open-austin.org/">Open Austin</a> projects that have tasks ready for hacking.</p>
       <p>We use the the Github issue tracking system to manage the hack tasks. Typically tasks available for hacking
       are marked with a "hack" label (although some projects may use other conventions).</p>
       <p>If one of the hack tasks interest you, we suggest you contact the project maintainer. If you decide
       to proceed, you can go into the task management system and assign it to yourself, so people know you are
       working on it.</p>
       <p>If you have any questions, contact hack@open-austin.org.</p>
-    </div>
+      
+    </div><!-- .header -->
     
     <div id="alerts-block" data-bind="foreach: alerts">
       <div class="alert" data-bind="css: 'alert-' + type">
