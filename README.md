@@ -52,11 +52,11 @@ to provide an extended query limit.
 First, you will need to get an access token by logging into your Github account
 and going to:
 
-  Account Settings -> Applications -> Personal API Access Tokens
+    Account Settings -> Applications -> Personal API Access Tokens
   
 Once you have your token, specify it in the request with a "_T" parameter:
 
-  .../index.html?_T=856e3ee345aa271506d1dcb33d67c9363726ceba
+    .../index.html?_T=856e3ee345aa271506d1dcb33d67c9363726ceba
       
 
 Problem: Failure when running Google Chrome local
@@ -66,7 +66,7 @@ Typically, in development, you will simply open "index.html" as a local file
 with your web browser. If you do this with Google Chrome you may get an error.
 If you open up the Javascript console, you will see the message:
 
-  Failed to load resource: Origin null is not allowed by Access-Control-Allow-Origin. 
+    Failed to load resource: Origin null is not allowed by Access-Control-Allow-Origin. 
 
 That's a known bug with Chrome, when it tries to use the jQuery $.getJSON() operation
 on a local file.
