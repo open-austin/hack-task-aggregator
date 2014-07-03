@@ -3,5 +3,6 @@
    { "owner" : "open-austin",    "project" : "austin-recycles"       },
    { "owner" : "open-austin",    "project" : "tecfiler"              },
    { "owner" : "open-austin",    "project" : "atx-restaurant-scores" },
-   { "owner" : "chip-rosenthal", "project" : "bike-buddy"            }
+   { "owner" : "chip-rosenthal", "project" : "bike-buddy"            },
+   { "owner" : "tshelburne",     "project" : "pet-finder"            },
 ]
