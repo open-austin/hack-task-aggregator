@@ -22,3 +22,15 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
+
+---
+
+This statement excludes the following, which are part of
+third-party packages included in this project.
+
+Files: public/assets/bootstrap/*
+Source: http://getbootstrap.com/2.3.2/assets/bootstrap.zip
+Info: http://getbootstrap.com/2.3.2/
+
+File: public/assets/img/icon-busy.gif
+Source: unknown
